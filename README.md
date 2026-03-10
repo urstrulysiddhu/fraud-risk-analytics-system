@@ -132,6 +132,23 @@ Analyzed transaction activity across time intervals.
 ### Correlation Analysis
 Explored relationships between transaction features and fraud labels.
 
+
+## Python Data Analysis
+
+Exploratory data analysis and visualization were performed using Python.
+
+The notebook includes:
+
+- Fraud vs normal transaction distribution
+- Transaction amount analysis
+- Fraud vs transaction amount comparison
+- Correlation heatmap of transaction features
+- Feature behavior analysis for fraud detection
+
+The full analysis is available in the notebook:
+
+`fraud_risk_analysis.ipynb`
+
 ## Key Insights
 
 - Fraud transactions represent **less than 0.2%** of all transactions.
@@ -142,7 +159,7 @@ Explored relationships between transaction features and fraud labels.
 fraud-risk-analytics-system
 │
 ├── fraud_analysis_queries.sql
-├── financial_fraud_risk_analysis.ipynb
+├── fraud_risk_analysis.ipynb
 └── results
 ├── fraud_overview.png
 ├── fraud_distribution.png
